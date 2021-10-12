@@ -38,8 +38,7 @@ public class ChessMath {
 			throw new ChessException("posição sem peças");
 		}
 		if (!board.piece(position).isThereAnyPossibleMove()) {
-			throw new ChessException("Sem movimento da peça");
-			
+			throw new ChessException("Sem movimento da peça");			
 		}
 	}
 
